@@ -1,12 +1,32 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 .container {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 50px;
 }
 .main-nav-list {
   display: flex;
