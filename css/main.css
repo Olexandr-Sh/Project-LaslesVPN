@@ -15,12 +15,21 @@ ol {
   padding: 0;
   list-style-type: none;
 }
+body {
+  font-family: "Rubik", sans-serif;
+}
+.logo-icon {
+  height: 36.23px;
+}
 .container {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.main-header {
+  background: #fcffff;
 }
 .header-flex {
   display: flex;
@@ -36,8 +45,20 @@ ol {
 }
 .main-nav-link {
   display: inline-flex;
-  padding: 4px 13px;
+  padding: 4px 20px;
+  color: #4f5665;
+  font-size: 16px;
+  line-height: 19px;
 }
 .d-flex {
   display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.hero-flex-item {
+  width: 50%;
+}
+.hero-flex-item-left {
+  padding-right: 40px;
 }
