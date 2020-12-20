@@ -160,6 +160,50 @@ body {
   border: none;
   cursor: pointer;
   transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.big-btn-hsection:hover {
+  background: #f53838;
+  box-shadow: 2px 32px 56px #fff;
+}
+.big-btn-hsection::before {
+  position: absolute;
+  background: #30235b;
+  transition: 0.5s all ease;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+}
+.big-btn-hsection:hover::before {
+  transition: 0.5s all ease;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.big-btn-hsection:focus {
+  background: #30235b;
+  box-shadow: 2px 32px 56px #fff;
+}
+.big-btn-hsection:active {
+  background: #fff;
+  box-shadow: 2px 32px 56px #fff;
+  color: #30235b;
+  border: 1px solid #30235b;
+}
+.big-btn-hsection:active::before {
+  transition: 0.5s all ease;
+  border-radius: 10px;
+  left: 50%;
+  right: 50%;
+  box-shadow: 2px 32px 56px #fff;
+  background: #fff;
+  /* z-index: 2; */
 }
 .decoration-shadow {
   width: 30%;
