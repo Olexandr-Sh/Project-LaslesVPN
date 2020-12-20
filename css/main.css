@@ -33,7 +33,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-top: 50px;
-  padding-bottom: 120px;
+  padding-bottom: 84px;
 }
 .main-nav-list {
   display: flex;
@@ -203,7 +203,6 @@ body {
   right: 50%;
   box-shadow: 2px 32px 56px #fff;
   background: #fff;
-  /* z-index: 2; */
 }
 .decoration-shadow {
   width: 30%;
@@ -216,4 +215,6 @@ body {
 }
 .first-img {
   padding-left: 32px;
+  padding-top: 36px;
+  width: 98%;
 }
