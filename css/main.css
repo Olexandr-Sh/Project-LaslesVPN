@@ -122,6 +122,9 @@ body {
 .align-items-center {
   align-items: center;
 }
+.padding-to-white-box {
+  padding-bottom: 96px;
+}
 .hero-flex-item {
   width: 50%;
 }
@@ -212,7 +215,6 @@ body {
 .first-img {
   padding-left: 32px;
   padding-top: 36px;
-  padding-bottom: 96px;
   width: 98%;
 }
 .rectangle-with-icons {
