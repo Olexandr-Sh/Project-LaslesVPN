@@ -16,7 +16,7 @@ body {
   font-family: "Rubik", sans-serif;
 }
 .logo-icon {
-  height: 36.23px;
+  height: 36px;
 }
 .container {
   max-width: 1140px;
@@ -95,21 +95,18 @@ body {
   height: 45px;
   outline: none;
   cursor: pointer;
-  transition: ease-out 0.3s;
 }
 .sign-up-big-header-btn:hover {
   background: #f53855;
   color: #fff;
-  transition: ease-out 0.3s;
   box-shadow: 0 0 8px #f38f9e;
-  transition: 0.5s all ease;
+  transition: 0.5s ease-out;
 }
 .sign-up-big-header-btn:focus {
   background: #f53855;
   color: #fff;
-  transition: ease-out 0.3s;
+  transition: ease-out 0.5s;
   box-shadow: 0 0 8px #f38f9e;
-  transition: 0.5s all ease;
 }
 .sign-up-big-header-btn:active {
   background-color: #f53855;
@@ -169,7 +166,7 @@ body {
 .big-btn-hsection::before {
   position: absolute;
   background: #30235b;
-  transition: 0.5s all ease;
+  transition: 0.3s ease-out;
   top: 0;
   left: 50%;
   right: 50%;
@@ -178,7 +175,7 @@ body {
   content: "";
 }
 .big-btn-hsection:hover::before {
-  transition: 0.5s all ease;
+  transition: 0.5s ease-out;
   border-radius: 10px;
   left: 0;
   right: 0;
@@ -196,7 +193,7 @@ body {
   border: 1px solid #30235b;
 }
 .big-btn-hsection:active::before {
-  transition: 0.5s all ease;
+  transition: 0.5s ease-out;
   border-radius: 10px;
   left: 50%;
   right: 50%;
