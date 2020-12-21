@@ -283,3 +283,31 @@ body {
   align-self: center;
   font-size: 26px;
 }
+.features-part-of-hero-section {
+  padding-bottom: 126px;
+}
+.second-img {
+  height: 318px;
+  width: 88%;
+}
+.position-second-img {
+  display: flex;
+  justify-content: center;
+}
+.padding-for-features-list {
+  padding-left: 128px;
+}
+.features {
+  margin: 0;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  padding-bottom: 20px;
+}
+.features-sentence {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
