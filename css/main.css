@@ -1,0 +1,226 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.logo-icon {
+  height: 36px;
+}
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.main-header {
+  background: #fcffff;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 84px;
+}
+.main-nav-list {
+  display: flex;
+  padding-left: 138px;
+  padding-right: 50px;
+  margin: 0;
+  list-style-type: none;
+}
+.main-nav-link {
+  display: inline-flex;
+  padding: 4px 20px;
+  color: #4f5665;
+  font-size: 16px;
+  line-height: 19px;
+}
+.sign-in-header-btn {
+  padding: 14px 30px;
+  color: #0b132a;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  height: 45px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+.sign-in-header-btn:hover {
+  background: #30235b;
+  box-shadow: 0 0 6px #514772;
+  color: #fff;
+  border-radius: 50px;
+  transition: ease-out 0.3s;
+  height: 45px;
+}
+.sign-in-header-btn:focus {
+  background: #30235b;
+  box-shadow: 0 0 6px #514772;
+  color: #fff;
+  border-radius: 50px;
+  transition: ease-out 0.3s;
+  height: 45px;
+}
+.sign-in-header-btn:active {
+  background-color: #30235b;
+  opacity: 0.5;
+}
+.sign-up-big-header-btn {
+  padding: 14px 48px;
+  color: #f53855;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  background: none;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  box-sizing: border-box;
+  height: 45px;
+  outline: none;
+  cursor: pointer;
+}
+.sign-up-big-header-btn:hover {
+  background: #f53855;
+  color: #fff;
+  box-shadow: 0 0 8px #f38f9e;
+  transition: 0.5s ease-out;
+}
+.sign-up-big-header-btn:focus {
+  background: #f53855;
+  color: #fff;
+  transition: ease-out 0.5s;
+  box-shadow: 0 0 8px #f38f9e;
+}
+.sign-up-big-header-btn:active {
+  background-color: #f53855;
+  opacity: 0.5;
+}
+.hero-section {
+  background: #fcffff;
+  color: #4f5665;
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.hero-flex-item {
+  width: 50%;
+}
+.hero-flex-item-left {
+  padding-left: 6px;
+}
+.main-head {
+  margin: 0;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+}
+.sentence-in-hero-section {
+  margin: 0;
+  width: 100%;
+  padding-bottom: 50px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.big-btn-hsection {
+  padding: 18px 82px;
+  background: #f53838;
+  color: #fcffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.big-btn-hsection:hover {
+  background: #f53838;
+  box-shadow: 2px 32px 56px #fff;
+}
+.big-btn-hsection::before {
+  position: absolute;
+  background: #30235b;
+  transition: 0.3s ease-out;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+}
+.big-btn-hsection:hover::before {
+  transition: 0.5s ease-out;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.big-btn-hsection:focus {
+  background: #30235b;
+  box-shadow: 2px 32px 56px #fff;
+}
+.big-btn-hsection:active {
+  background: #fff;
+  box-shadow: 2px 32px 56px #fff;
+  color: #30235b;
+  border: 1px solid #30235b;
+}
+.big-btn-hsection:active::before {
+  transition: 0.5s ease-out;
+  border-radius: 10px;
+  left: 50%;
+  right: 50%;
+  box-shadow: 2px 32px 56px #fff;
+  background: #fff;
+}
+.decoration-shadow {
+  width: 30%;
+  min-height: 12px;
+  background: none;
+  box-shadow: 0px 20px 54px 32px rgba(245, 56, 56, 0.35);
+  border-radius: 10px;
+  margin-top: -30px;
+  margin-left: 8%;
+}
+.first-img {
+  padding-left: 32px;
+  padding-top: 36px;
+  padding-bottom: 96px;
+  width: 98%;
+}
+.rectangle-with-icons {
+  width: 100%;
+  height: 200px;
+  background: #fcffff;
+  border-radius: 10px;
+  box-shadow: 0 54px 32px #2d2e30;
+}
+.circle {
+}

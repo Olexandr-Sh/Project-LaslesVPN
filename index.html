@@ -3,52 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./main.css" />
-    <title>Document</title>
+    <meta name="author" content="Shevtsov" />
+    <meta name="description" content="Project LaslesVPN" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, project, one page, lasles, VPN, features"
+    />
+    <title>LaslesVPN</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header class="main-header">
       <div class="container">
         <div class="header-flex">
-          <a href="">
-            <img src="" alt="" />
+          <a aria-label="LaslesVPN logo to go to the main page" href="">
+            <img
+              src="./images/Logo.svg"
+              alt="LaslesVPN logo"
+              class="logo-icon"
+            />
           </a>
-          <nav class="main-nav">
+          <nav>
             <ul class="main-nav-list">
-              <li class="main-nav-list-item">
-                <a href="" class="main-nav-link">link</a>
+              <li>
+                <a href="" class="main-nav-link">About</a>
               </li>
-              <li class="main-nav-list-item">
-                <a href="" class="main-nav-link">link</a>
+              <li>
+                <a href="" class="main-nav-link">Features</a>
               </li>
-              <li class="main-nav-list-item">
-                <a href="" class="main-nav-link">link</a>
+              <li>
+                <a href="" class="main-nav-link">Pricing</a>
               </li>
-              <li class="main-nav-list-item">
-                <a href="" class="main-nav-link">link</a>
+              <li>
+                <a href="" class="main-nav-link">Testimonials</a>
               </li>
-              <li class="main-nav-list-item">
-                <a href="" class="main-nav-link">link</a>
+              <li>
+                <a href="" class="main-nav-link">Help</a>
               </li>
             </ul>
           </nav>
           <div class="d-flex">
-            <button class="main-btn">button</button>
-            <button class="">button</button>
+            <button class="sign-in-header-btn">Sign In</button>
+            <button class="sign-up-big-header-btn">Sign Up</button>
           </div>
         </div>
       </div>
     </header>
     <main>
       <section class="hero-section">
-        <div class="d-flex">
-          <div class="hero-section-item-flex">
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button>button</button>
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <div class="hero-flex-item">
+              <h1 class="main-head">
+                Want anything to be easy with <b>LaslesVPN.</b>
+              </h1>
+              <p class="sentence-in-hero-section">
+                Provide a network for all your needs with ease and fun using
+                <strong>LaslesVPN</strong> discover interesting features from
+                us.
+              </p>
+              <button class="big-btn-hsection">Get Started</button>
+              <div class="decoration-shadow"></div>
+            </div>
+            <div class="hero-flex-item">
+              <img
+                src="./images/person_opposite_the_screen.png"
+                alt="person opposite the computer screen"
+                class="first-img"
+              />
+            </div>
           </div>
-          <div>
-            <img src="//via.placeholder.com/300x300" alt="" />
+          <div class="d-flex align-items-center rectangle-with-icons">
+            <ul>
+              <li>
+                <div class="circle"></div>
+                <span>90+</span>
+                <p>Users</p>
+              </li>
+              <li>
+                <div class="circle"></div>
+                <span>30+</span>
+                <p>Locations</p>
+              </li>
+              <li>
+                <div class="circle"></div>
+                <span>50+</span>
+                <p>Servers</p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
