@@ -310,4 +310,35 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #4f5665;
+  padding-bottom: 20px;
+}
+.custom-list-item {
+  padding-bottom: 15px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+  position: relative;
+  padding-left: 40px;
+}
+/* .custom-list-item:before {
+  font-family: "icomoon";
+  content: "\e902";
+  position: absolute;
+  left: 0;
+} */
+.green-bullet {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2fab73;
+  border: none;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+.position-icon-in-bullet {
+  color: white;
+  align-self: center;
+  font-size: 20px;
 }
