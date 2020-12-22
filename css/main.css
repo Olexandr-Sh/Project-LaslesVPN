@@ -461,10 +461,22 @@ body {
   height: 45px;
   outline: none;
   cursor: pointer;
+  position: relative;
 }
 .plan-sml-btns:hover {
+  background: #f53838;
+  color: #fcffff;
+  transition: 0.5s ease-out;
+  box-shadow: 0 15px 54px -14px #f53838;
 }
 .plan-sml-btns:focus {
+  background: #f53838;
+  color: #fcffff;
+  transition: 0.5s ease-out;
+  box-shadow: 0 15px 54px -14px #f53838;
 }
 .plan-sml-btns:active {
+  background: #ee7171;
+  color: #fcffff;
+  transition: 0.3s ease-out;
 }
