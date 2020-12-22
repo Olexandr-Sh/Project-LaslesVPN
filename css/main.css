@@ -243,7 +243,7 @@ body {
 .white-box {
   color: red;
   background: #fcffff;
-  width: 78%;
+  width: 100%;
   height: 200px;
   border-radius: 10px;
   position: absolute;
@@ -320,12 +320,6 @@ body {
   position: relative;
   padding-left: 40px;
 }
-/* .custom-list-item:before {
-  font-family: "icomoon";
-  content: "\e902";
-  position: absolute;
-  left: 0;
-} */
 .green-bullet {
   width: 20px;
   height: 20px;
