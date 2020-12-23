@@ -499,7 +499,7 @@ body {
   display: flex;
   width: 100%;
   list-style-type: none;
-  padding-bottom: 42px;
+  padding-bottom: 66px;
 }
 .list-item-cust-boxes {
   margin-right: 30px;
@@ -507,7 +507,6 @@ body {
   flex-direction: column;
   align-items: center;
   width: 360px;
-  height: 277px;
   background: #fcffff;
   border: 2px solid #dddddd;
   box-sizing: border-box;
@@ -522,10 +521,50 @@ body {
 .list-item-cust-boxes:last-child {
   margin: 0;
 }
+.customer-information {
+  padding-top: 40px;
+  padding-bottom: 18px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.customer-information:before {
+  font-family: "icomoon";
+  content: "\e909";
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  color: #fea250;
+}
+.customer-info-item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 60px;
+}
+.name {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+.place-of-residence {
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+.rating {
+  font-size: 16px;
+  line-height: 30px;
+  padding-right: 24px;
+  color: #0b132a;
+}
 .customer-response {
   margin: 0;
+  width: 86%;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  padding-bottom: 32px;
   color: #0b132a;
 }
