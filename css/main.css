@@ -502,6 +502,8 @@ body {
   padding-bottom: 66px;
 }
 .list-item-cust-boxes {
+  padding-left: 1px;
+  padding-right: 4px;
   margin-right: 30px;
   display: flex;
   flex-direction: column;
