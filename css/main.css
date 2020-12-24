@@ -305,7 +305,7 @@ body {
   line-height: 30px;
   color: #4f5665;
   position: relative;
-  padding-left: 40px;
+  padding-left: 34px;
 }
 .green-bullet {
   width: 20px;
@@ -400,7 +400,7 @@ body {
   line-height: 30px;
   color: #4f5665;
   position: relative;
-  padding-left: 26px;
+  padding-left: 46px;
 }
 .plans-list-item:before {
   font-family: "icomoon";
@@ -550,7 +550,6 @@ body {
 }
 .place-of-residence {
   font-size: 14px;
-  line-height: 30px;
   color: #4f5665;
 }
 .rating {
@@ -680,7 +679,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 42%;
+  width: 40%;
 }
 .fotter-column-last {
   padding-right: 52px;
@@ -695,7 +694,7 @@ body {
   line-height: 30px;
 }
 .list-item-logo-paddings {
-  padding-bottom: 8px;
+  padding-bottom: 10px;
 }
 .footer-list-item-under-logo {
   font-weight: 500;
@@ -724,7 +723,7 @@ body {
   color: #fcffff;
   border-radius: 50%;
   font-size: 34px;
-  box-shadow: 0 5px 6px 1px rgba(13, 16, 37, 0.06);
+  box-shadow: 0 10px 12px 1px rgba(13, 16, 37, 0.08);
   cursor: pointer;
 }
 .footer-icons:hover {
@@ -754,11 +753,12 @@ body {
   color: #fcffff;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.position-footer-icons {
+.position-footer-icons-list {
   display: flex;
   justify-content: space-around;
-  width: 38%;
+  width: 46%;
 }
 .last-item-of-first-list {
   font-size: 16px;
@@ -775,4 +775,10 @@ body {
 }
 .footer-list-item-link {
   color: #4f5665;
+}
+.footer-list-item-link:hover {
+  color: #0b132a;
+}
+.footer-list-item-link:focus {
+  color: #0b132a;
 }
