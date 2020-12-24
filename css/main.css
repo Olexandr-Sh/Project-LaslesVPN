@@ -748,10 +748,12 @@ body {
   font-size: 34px;
 }
 .white-bullet-with-footer-icon {
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   color: #fcffff;
+  display: flex;
+  align-items: center;
 }
 .position-footer-icons {
   display: flex;
@@ -767,8 +769,10 @@ body {
   padding-bottom: 10px;
   font-size: 16px;
   line-height: 30px;
-  color: #4f5665;
 }
 .product-item-position {
   padding-right: 60px;
+}
+.footer-list-item-link {
+  color: #4f5665;
 }
