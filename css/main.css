@@ -61,13 +61,13 @@ body {
   outline: none;
   cursor: pointer;
   transition: ease-out 0.3s;
+  transition-property: color;
 }
 .sign-in-header-btn:hover {
   background: #30235b;
   box-shadow: 0 0 6px #514772;
   color: #fff;
   border-radius: 50px;
-  transition: ease-out 0.3s;
   height: 45px;
 }
 .sign-in-header-btn:focus {
@@ -447,7 +447,6 @@ body {
 .plan-sml-btns:hover {
   background: #f53838;
   color: #fcffff;
-  transition: 0.5s ease-out;
   box-shadow: 0 15px 54px -14px #f53838;
 }
 .plan-sml-btns:focus {
